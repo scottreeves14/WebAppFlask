@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: lightgreen;
     margin: 0;
     padding: 0;
-    color: #212529;
+    color: black;
 }
 
 h1 {
@@ -12,6 +12,7 @@ h1 {
     font-size: 2.5rem;
     margin-top: 40px;
     font-weight: bold;
+    color: black
 }
 
 p {
