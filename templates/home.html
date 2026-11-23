@@ -1,0 +1,27 @@
+/*home.html*/
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    {% block title %}Home Page{% endblock %}
+</head>
+<body>
+
+    {% block content %}
+    <div class="content" id="content">
+        <h1>Welcome to the Home Page</h1>
+        <ul>
+            <li>If you want to access the service but do not have permission, please contact the IT department.</li>
+        </ul>
+    </div>
+    {% endblock %}
+
+    {% block logout %}
+    <div class="logout">
+        <a href="/logout">Logout</a>
+    </div>
+    {% endblock %}
+
+</body>
+</html>
