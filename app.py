@@ -64,13 +64,12 @@ def login():
         if user: 
             session['user'] = username 
             return redirect(url_for('index')) 
-            #return redirect(url_for('home')) 
         else: 
             return "Invalid login details." 
     return render_template('login.html')
 ################################
 #@app.route('/home') 
-#def logout():
+#def home():
 #    session.pop('user', None) 
 #    return redirect(url_for('home'))
 ################################
